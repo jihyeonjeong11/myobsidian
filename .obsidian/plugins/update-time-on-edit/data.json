@@ -1,0 +1,31 @@
+{
+  "dateFormat": "yyyy-MM-dd'T'HH:mm",
+  "enableCreateTime": true,
+  "headerUpdated": "updated",
+  "headerCreated": "created",
+  "minMinutesBetweenSaves": 1,
+  "ignoreGlobalFolder": [],
+  "ignoreCreatedFolder": [],
+  "enableExperimentalHash": false,
+  "fileHashMap": {
+    "Kanban/Kanban.md": "72583714618bea2b126f321d327f844df086050931498b247784ff55037ad67c",
+    "Templates/unsorted/4_Recipe Template.md": "2af20b71ec9982bd75c2c1bfe1713ffb0c1a69f93cba50a8a8b9f18d3d6db7b2",
+    "Showcases/Note_Prompt.md": "0c28f68a6e6c12d5a26fa3d31f5be8933f8de71836c5a2ff9c9adc3ddb586b30",
+    "Showcases/Note_idea_sideIdeas.md": "3e537db116825e5443b4c63cfe611fc428f7aa10bb134914e737a674f16f2a4d",
+    "Showcases/Note_Wikipedia_adam smith.md": "661da0586a7e625054194e4fc6eafa5d1fa3a9d6b2ea6c286390c7fd759408d4",
+    "Showcases/Question.md": "290a8d040f611a109933d3d8c6e77cb9d773ad01e46bc6aa6b142eb7f8950227",
+    "Templates/unsorted/5_BuJo - Weekly Log.md": "26e23ef3117f86d983e816918bd7dfadd3e6c7d56f95a1d13330591b81278e1e",
+    "Templates/Template_prompt.md": "3ab9f7a63353931f2c567071cdfa7712fa8d5cf5994403626c87912196b4b59c",
+    "Templates/Template_timetable.md": "dd13278af20cf889f16a2aeb26db29f03fdbc82e45060d8b4cd9d9c750baf1d5",
+    "ObsidianUsecases/Graph filter.md": "a0c28bbc15c8d140296fa178d1c9cb5a703d095385c53f7bf48df310fbf10463",
+    "Permanants/ai/Model_Context_Protocol.md": "c97fe79411cc2ec591c875c2cd254f35ee44c1a3180c75c996ff76fbb681ed32",
+    "Permanants/ai/AI lecture1.md": "c235cfcaad90e6961d0703577dc9484edcf8d1bf4cdbde73aae70ea525ae56d1",
+    "Permanants/ai/AI lecture2.md": "42c3dc8dc0aa6121d77626f789b96ae46968e18f1dadb928a0cd8eb9db659d86",
+    "Fleetings/Fleeting index.md": "b59a8a42cf82a4028a423e6298ff46e0a3215a9d82edc6f8140688a044242f99",
+    "Permanants/ai/AI index.md": "901f7544231ac6caeb5f98fa192c04a9f01a7b58e20eaea138db9a54967881de",
+    "Permanants/ai/Ai Brainstorming.md": "7705a172e375a5df865188166c6ad3312a83df971de1e2e395f78e932150aa0b",
+    "Fleetings/Ideas/AI brainstorming.md": "22f9b80cda1bb88bb74045354388c402f2a44a826b2ebb673545e99ce668d190",
+    "life/20250417.md": "92e0dc8e6e5c9b0740933a17de8229ed1586eea3f04ee8263fc005b978d7f430",
+    "Permanants/Zettelkasten/Zettelkasten use-cases.md": "e034b07b5a0c7e1617780b6e0b46e60b691d5da4694ea62d912a1d1409d70cc7"
+  }
+}
