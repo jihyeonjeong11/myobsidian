@@ -2,7 +2,6 @@
 tags:
   - type/sketchnote
   - type/note
-  - theme/xyz
 aliases: 
 lead: +++ Lead paragraph goes here +++
 visual: "![[image.jpg]]"
@@ -11,7 +10,7 @@ modified: 2025-04-18, 22:49
 template_type: Note
 template_version: "1.35"
 license: © 2022-2025 by Edmund Gröpl under CC BY-NC-SA 4.0
-updated: 2025-04-19T00:26
+updated: 2025-04-19T20:39
 ---
 <!--  See "Template Help" below for using properties -->
 

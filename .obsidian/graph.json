@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "-path:Templates/ -path:Showcases/",
+  "search": "-path:Templates/ -path:Showcases/ -path:\"Fleetings/Job descs\"  ",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -12,6 +12,20 @@
       "color": {
         "a": 1,
         "rgb": 14048348
+      }
+    },
+    {
+      "query": "tag:#theme/structure",
+      "color": {
+        "a": 1,
+        "rgb": 14069084
+      }
+    },
+    {
+      "query": "tag:#theme/ai",
+      "color": {
+        "a": 1,
+        "rgb": 11392604
       }
     }
   ],
@@ -25,6 +39,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 1.4019828977761086,
+  "scale": 0.7132754626224505,
   "close": false
 }
