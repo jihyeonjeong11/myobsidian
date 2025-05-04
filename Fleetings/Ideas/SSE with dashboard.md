@@ -1,7 +1,11 @@
 ---
 created: 2025-04-30T11:14
-updated: 2025-04-30T11:14
+updated: 2025-04-30T11:52
 ---
+[[Make chart showroom - urgent]]
+
+
+
 SSE with dashboard 
 
 - 만드는 이유? 이전에 장고 어드민으로 어드민을쓰고 제대로 만들어보지 못했음. 
