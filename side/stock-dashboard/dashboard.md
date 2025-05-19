@@ -1,6 +1,6 @@
 ---
 created: 2025-05-01T22:46
-updated: 2025-05-01T22:46
+updated: 2025-05-10T12:03
 ---
 
 
@@ -53,248 +53,62 @@ https://github.com/vercel/next.js/discussions/14950#discussioncomment-4943465
 - ci/cd? - consider railway
 - chart? - candstick and else
 
-1. Backend Developer's Perspective:
-
-- Core Infrastructure:
-    
-    typescript
-    
-    
-         // Time-series database setup (e.g., TimescaleDB)
-    
-         interface StockData {
-    
-           symbol: string;
-    
-           price: number;
-    
-           timestamp: Date;
-    
-           volume: number;
-    
-         }
-    
-         // WebSocket server implementation
-    
-         const wsServer = new WebSocketServer({
-    
-           port: 8080,
-    
-           path: '/stocks'
-    
-         });
-    
-
-- Key Tasks:
-
-- Set up real-time data ingestion pipeline
-
-- Implement market data provider integration
-
-- Design efficient data storage schema
-
-- Create WebSocket endpoints for live updates
-
-- Implement rate limiting and data throttling
-
-- Set up data validation and sanitization
-
-1. Frontend Developer's Perspective:
-
-- Core Components:
-    
-    typescript
-    
-    
-         // WebSocket connection manager
-    
-         const useStockData = (symbol: string) => {
-    
-           const [data, setData] = useState<StockData>();
-    
-           const ws = useWebSocket(`ws://api/stocks/${symbol}`);
-    
-           // Handle real-time updates
-    
-         };
-    
-         // Chart component with real-time updates
-    
-         const StockChart = ({ symbol }) => {
-    
-           const data = useStockData(symbol);
-    
-           return <TradingViewChart data={data} />;
-    
-         };
-    
-
-- Key Tasks:
-
-- Implement WebSocket client connection handling
-
-- Create responsive chart components
-
-- Build watchlist management system
-
-- Handle data caching and state management
-
-- Implement error boundaries and fallbacks
-
-- Optimize rendering performance
-
-1. UI/UX Designer's Perspective:
-
-- Design Considerations:
-
-- Create clear data hierarchy
-
-- Design mobile-responsive layouts
-
-- Plan loading states and transitions
-
-- Design error states and notifications
-
-- Create accessible color schemes
-
-- Key Components:
-
-- Price movement indicators
-
-- Time period selectors
-
-- Watchlist management interface
-
-- Chart customization controls
-
-- Real-time alerts UI
-
-1. DevOps Engineer's Perspective:
-
-- Infrastructure Setup:
-    
-    yaml
-    
-    Apply to SEO 다뤘던 법 - ...
-    
-         # Docker compose example
-    
-         services:
-    
-           timescaledb:
-    
-             image: timescale/timescaledb:latest
-    
-           redis:
-    
-             image: redis:alpine
-    
-           api:
-    
-             build: ./api
-    
-             depends_on:
-    
-               - timescaledb
-    
-               - redis
-    
-
-- Key Tasks:
-
-- Set up scalable WebSocket infrastructure
-
-- Configure load balancing
-
-- Implement monitoring and alerting
-
-- Set up CI/CD pipelines
-
-- Configure auto-scaling policies
-
-- Implement disaster recovery plans
-
-1. Cross-Cutting Concerns:
-
-- Security:
-
-- Implement authentication and authorization
-
-- Set up rate limiting
-
-- Secure WebSocket connections
-
-- Implement data encryption
-
-- Performance:
-
-- Optimize database queries
-
-- Implement caching strategies
-
-- Handle connection pooling
-
-- Monitor system resources
-
-- Monitoring:
-
-- Set up logging infrastructure
-
-- Configure performance monitoring
-
-- Implement error tracking
-
-- Set up alerting systems
-
-1. Technical Stack Recommendations:
-    
-    typescript
-    
-    Apply to SEO 다뤘던 법 - ...
-    
-       // Backend
-    
-       - Node.js/TypeScript with NestJS
-    
-       - TimescaleDB for time-series data
-    
-       - Redis for caching
-    
-       - WebSocket server (ws or Socket.io)
-    
-       // Frontend
-    
-       - React/Next.js
-    
-       - TradingView charts
-    
-       - Redux Toolkit for state management
-    
-       - Socket.io-client for WebSocket
-    
-       // DevOps
-    
-       - Docker & Kubernetes
-    
-       - AWS/GCP for cloud infrastructure
-    
-       - Prometheus & Grafana for monitoring
-    
-       - ELK stack for logging
-    
-
-2. Implementation Phases:
-
-3. Basic Infrastructure Setup
-
-4. Data Ingestion Pipeline
-
-5. Core Frontend Components
-
-6. Real-time Updates
-
-7. Advanced Features
-
-8. Performance Optimization
-
-9. Monitoring & Maintenance
+# ✅ MVP Task List: Stock Dashboard
+
+## 🔧 Backend & Real-Time Infrastructure
+- [x] Set up real-time data ingestion pipeline
+- [x] Implement market data provider integration (e.g., Finnhub, Alpha Vantage)
+- [ ] Design efficient TimescaleDB schema for time-series stock data
+- [x] Create WebSocket endpoints for live stock updates
+- [ ] Implement rate limiting and data throttling
+- [ ] Set up data validation and sanitization logic
+- [ ] Secure WebSocket connections (WSS, origin checks)
+
+## 🎨 Frontend (React/Next.js)
+- [x] Create `useStockData` hook to manage WebSocket connection per symbol
+- [x] Build `StockChart` component using TradingView or ECharts
+- [x] Implement responsive chart layout (mobile & desktop)
+- [ ] Create Watchlist interface with add/remove support
+- [ ] Implement caching strategy (e.g., sessionStorage or Redux Toolkit Query)
+- [x] Add error boundaries and loading fallbacks
+- [x] Optimize component rendering for performance
+
+## 🧩 UI/UX Design Considerations
+- [ ] Design clear data hierarchy and visual structure
+- [x] Add mobile-first layout and responsive design
+- [ ] Implement skeleton loaders for initial loading state
+- [ ] Design accessible color schemes and font hierarchy
+- [ ] Build alert/notification UI for price triggers or system errors
+- [ ] Add chart customization controls (time range, candle/line)
+
+## ⚙️ DevOps Setup
+- [ ] Create Docker Compose setup with `timescaledb`, `redis`, and `api` service
+- [ ] Configure scalable WebSocket infrastructure (e.g., Nginx + ws)
+- [ ] Set up CI/CD pipeline (e.g., GitHub Actions, Railway, or GitLab CI)
+- [ ] Implement logging (ELK Stack) and performance monitoring (Prometheus + Grafana)
+- [ ] Add auto-scaling and backup policies
+- [ ] Enable alerts for service errors and performance thresholds
+
+## 🔐 Cross-Cutting Concerns
+- [x] Implement user authentication and session handling
+- [ ] Add rate limiting on sensitive API and socket endpoints
+- [ ] Encrypt sensitive data at rest and in transit
+- [ ] Handle connection pooling and graceful fallback
+- [ ] Set up centralized logging and alerting for production
+
+## 🧱 Technical Stack Reference
+- Backend: `Node.js` + `TypeScript` + `NestJS`
+- DB: `TimescaleDB` (PostgreSQL extension), `Redis` for caching
+- WebSockets: `ws` or `Socket.io`
+- Frontend: `React`, `Next.js`, `TradingView`, `Tailwind CSS`, `Redux Toolkit`
+- Infra: `Docker`, `Kubernetes`, `AWS/GCP`
+- Monitoring: `Prometheus`, `Grafana`, `ELK Stack`
+
+## 🚀 Phased Implementation
+- [x] Phase 1: Basic Infrastructure Setup
+- [x] Phase 2: Real-Time Data Ingestion Pipeline
+- [x] Phase 3: Core Frontend Components
+- [x] Phase 4: Real-time WebSocket Integration
+- [ ] Phase 5: Watchlist & Chart Customization
+- [ ] Phase 6: Performance & UX Optimization
+- [ ] Phase 7: Production Monitoring & Maintenance

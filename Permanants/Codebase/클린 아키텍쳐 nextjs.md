@@ -11,7 +11,7 @@ modified: 2025-04-17, 19:16
 template_type: Note
 template_version: "1.35"
 license: © 2022-2025 by Edmund Gröpl under CC BY-NC-SA 4.0
-updated: 2025-04-17T19:54
+updated: 2025-05-11T20:21
 ---
 
 
@@ -303,6 +303,7 @@ export async function getUserByEmail(email: string) {
 **References**
 <!-- Links to pages not referenced in the content. see: [[related note]] because <reason> -->
 - see:: [Uncle Bob's clean structure](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
+  https://gumroad.com/d/d4921cd7dd380c6757b47058f5be99d0
 
 **Terms**
 <!-- Links to definition pages. -->
