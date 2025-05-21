@@ -49,8 +49,7 @@
               "title": "interviewQuestions"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -123,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleetings/Job descs/interviewQuestions.md",
+                "file": "life/20250521.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +132,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for interviewQuestions"
+              "title": "Backlinks for 20250521"
             }
           },
           {
@@ -201,12 +200,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "db01fe95eebafd2d",
+  "active": "ecb4dd6be60a8e69",
   "lastOpenFiles": [
-    "Literature/articles/When should you let AI write your code.md",
-    "Fleetings/Job descs/interviewQuestions.md",
-    "사람인/점핏 -.md",
+    "Permanants/about/about_20250521.md",
+    "Literature/articles/SEO 최적화 하는법 - 기초.md",
+    "Permanants/about",
+    "Permanants/Untitled.md",
     "life/20250521.md",
+    "Fleetings/Job descs/interviewQuestions.md",
+    "Literature/articles/When should you let AI write your code.md",
+    "사람인/점핏 -.md",
     "Fleetings/Job descs/원티드.md",
     "사람인/그로잉랩 면접 전략.md",
     "사람인/그로잉랩 - 스타팅에서 오퍼 받음.md",
@@ -231,9 +234,6 @@
     "side/stock-dashboard/Untitled.md",
     "side/stock-dashboard/Proof of conecpt pt.1 - Cloudflare websocket worker.md",
     "side/stock-dashboard/NextJS Suspense island pattern.md",
-    "side/stock-dashboard/Proof of concept pt.2 -.md",
-    "Permanants/SEO 다뤘던 법 - 딱히 블로깅할 게 없을지도 단순히 학습목적이라면.md",
-    "Permanants/주식 차트 종류.md",
     "Permanants/Job-Interviews",
     "diagrams/StockDashboardDiagram.excalidraw",
     "Literature/How-to-Take-Smart-Notes-by-Sönke-Ahrens-40zol.pdf",
@@ -248,7 +248,6 @@
     "diagrams/myflow 1.excalidraw",
     "diagrams",
     "side",
-    "side/stock-dashboard",
     "visuals/seo2.jpg"
   ]
 }
