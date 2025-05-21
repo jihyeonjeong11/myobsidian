@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "life/20250519.md",
+                "file": "Literature/articles/When should you let AI write your code.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "20250519"
+              "title": "When should you let AI write your code"
             }
           }
         ]
@@ -75,7 +75,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "웹소켓",
+                "query": "tag:type/note",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -116,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "life/20250519.md",
+                "file": "Literature/articles/When should you let AI write your code.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 20250519"
+              "title": "Backlinks for When should you let AI write your code"
             }
           },
           {
@@ -186,20 +186,27 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "obsidian-book-search-plugin:Create new book note": false,
-      "obsidian-projects:Open projects": false,
-      "obsidian-kanban:Create new board": false,
-      "obsidian-excalidraw-plugin:New drawing": false
+      "command-palette:Open command palette": false
     }
   },
   "active": "836d2771af43704e",
   "lastOpenFiles": [
-    "Permanants/side/Cloudflare로 웹소켓 서버 작성하기.md",
+    "visuals/cody.png",
+    "Literature/articles/When should you let AI write your code.md",
+    "life/20250521.md",
     "life/20250519.md",
+    "사람인/점핏 -.md",
+    "사람인/그로잉랩 면접 전략.md",
+    "사람인/그로잉랩 - 스타팅에서 오퍼 받음.md",
+    "Templates/Template_job_offer.md",
+    "사람인",
+    "Templates/Template_job-description.md",
+    "Templates/Template_note.md",
+    "Permanants/Zettelkasten/Zettelkasten-blogging-Draft.md",
+    "side/stock-dashboard/드래프트)Cloudflare worker - Hibernation Websocket.md",
+    "Permanants/side/Cloudflare로 웹소켓 서버 작성하기.md",
     "life/20250517.md",
     "Untitled.canvas",
-    "side/stock-dashboard/드래프트)Cloudflare worker - Hibernation Websocket.md",
     "visuals/websocket.jpg",
     "visuals/websocket.avif",
     "Permanants/ai/Agentic AI와 MCP.md",
@@ -214,19 +221,9 @@
     "Permanants/SEO 다뤘던 법 - 딱히 블로깅할 게 없을지도 단순히 학습목적이라면.md",
     "Permanants/주식 차트 종류.md",
     "side/stock-dashboard/chart libarary selection.md",
-    "side/stock-dashboard/dashboard.md",
-    "side/stock-dashboard/scrum.md",
-    "Permanants/Job-Interviews/index.md",
-    "Permanants/Job-Interviews/Untitled.md",
-    "Permanants/Codebase/클린 아키텍쳐 nextjs.md",
-    "life/20250512.md",
     "Permanants/Job-Interviews",
-    "life/20250509.md",
     "diagrams/StockDashboardDiagram.excalidraw",
-    "life/20250508.md",
     "Literature/How-to-Take-Smart-Notes-by-Sönke-Ahrens-40zol.pdf",
-    "Literature/articles/single-agent ai vs multi agent ai.md",
-    "Literature/articles/SEO - Nextjs.md",
     "visuals/chart5.png",
     "visuals/chart4.png",
     "visuals/chart3.png",
@@ -239,8 +236,6 @@
     "diagrams",
     "side",
     "side/stock-dashboard",
-    "Permanants/side",
-    "visuals/seo2.jpg",
-    "visuals/AIBuilds.jpg"
+    "visuals/seo2.jpg"
   ]
 }
