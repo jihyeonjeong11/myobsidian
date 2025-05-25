@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "life/20250522.md",
+                "file": "Permanants/ai/언제 AI를 사용해야 할까.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "20250522"
+              "title": "언제 AI를 사용해야 할까"
             }
           },
           {
@@ -27,30 +27,37 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "life/adhdic/My Hyperfixation.md",
+                "file": "jobs/사람들의 조언/명승이형.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "My Hyperfixation"
+              "title": "명승이형"
             }
           },
           {
-            "id": "e3be0e716b7015de",
+            "id": "e66351d4bb4e274d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fleetings/Ideas/생각 덤프 앱 만들기.md",
+                "file": "jobs/job 해야하는거 - 0524 업데이트.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "생각 덤프 앱 만들기"
+              "title": "job 해야하는거 - 0524 업데이트"
             }
-          },
+          }
+        ],
+        "currentTab": 2
+      },
+      {
+        "id": "4e4c871ca7a5edba",
+        "type": "tabs",
+        "children": [
           {
-            "id": "abd401f4fc863b32",
+            "id": "e794a54b217347f1",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -62,23 +69,8 @@
               "icon": "lucide-file",
               "title": "When should you let AI write your code"
             }
-          },
-          {
-            "id": "db01fe95eebafd2d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Fleetings/Job descs/interviewQuestions.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "interviewQuestions"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +102,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "오욕",
+                "query": "tag:theme/xyz",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -131,7 +123,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -151,7 +144,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "life/adhdic/My Hyperfixation.md",
+                "file": "jobs/job 해야하는거 - 0524 업데이트.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +154,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for My Hyperfixation"
+              "title": "Backlinks for job 해야하는거 - 0524 업데이트"
             }
           },
           {
@@ -229,12 +222,20 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a1b5c60efa1d206f",
+  "active": "e66351d4bb4e274d",
   "lastOpenFiles": [
-    "life/20250524.md",
-    "life/20250522, 23.md",
-    "life/adhdic/My Hyperfixation.md",
+    "jobs/사람들의 조언/명승이형.md",
+    "Permanants/ai/언제 AI를 사용해야 할까.md",
+    "jobs/job 해야하는거 - 0524 업데이트.md",
+    "Literature/articles/When should you let AI write your code.md",
     "Permanants/about/about_20250521 - 코딩 슬럼프.md",
+    "visuals/slump.jpg",
+    "life/20250524.md",
+    "jobs/사람들의 조언",
+    "jobs",
+    "life/adhdic/My Hyperfixation.md",
+    "Fleetings/Job descs/인터뷰 마인드셋.md",
+    "life/20250522, 23.md",
     "life/adhdic",
     "life/20250521.md",
     "life/20250430.md",
@@ -250,18 +251,13 @@
     "Literature/articles/SEO 최적화 하는법 - 기초.md",
     "Permanants/about",
     "Permanants/Untitled.md",
-    "Literature/articles/When should you let AI write your code.md",
-    "사람인/점핏 -.md",
+    "jobs/사람인/점핏 -.md",
     "Fleetings/Job descs/원티드.md",
-    "사람인/그로잉랩 면접 전략.md",
-    "사람인/그로잉랩 - 스타팅에서 오퍼 받음.md",
+    "jobs/사람인/그로잉랩 면접 전략.md",
+    "jobs/사람인/그로잉랩 - 스타팅에서 오퍼 받음.md",
     "side/stock-dashboard/드래프트)Cloudflare worker - Hibernation Websocket.md",
     "visuals/cody.png",
-    "life/20250519.md",
-    "Templates/Template_job_offer.md",
-    "사람인",
-    "Templates/Template_job-description.md",
-    "Templates/Template_note.md",
+    "jobs/사람인",
     "Untitled.canvas",
     "visuals/websocket.jpg",
     "visuals/websocket.avif",
@@ -274,9 +270,6 @@
     "visuals/chart2.png",
     "visuals/chart1.png",
     "diagrams/myflow.excalidraw",
-    "visuals/err1.png",
-    "error-cases",
-    "diagrams/myflow 1.excalidraw",
-    "visuals/seo2.jpg"
+    "visuals/err1.png"
   ]
 }
