@@ -171,7 +171,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "life/20250527.md",
+                "file": "life/20250526.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -181,7 +181,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 20250527"
+              "title": "Backlinks for 20250526"
             }
           },
           {
@@ -249,10 +249,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5918ad7ccd9cc413",
+  "active": "a1b5c60efa1d206f",
   "lastOpenFiles": [
-    "life/20250526.md",
     "life/20250527.md",
+    "life/20250526.md",
     "jobs/근무이력/커넥트아이.md",
     "jobs/근무이력/아이비에스티.md",
     "jobs/근무이력/애기야가자.md",
