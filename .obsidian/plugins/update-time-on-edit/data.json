@@ -94,7 +94,7 @@
     "life/20250506.md": "0cbd7ce3b7816bdb0bba152cd37e2a612f1f411bbfa665ca5ee61e4720cb2bb8",
     "side/stock-dashboard/Glossary.md": "51eba4a8e699557450e9100cab2ed6a1eeb98a14a719241bab4f7438776f873f",
     "side/stock-dashboard/chart libarary selection.md": "fd7c9840025f9c8cdec3e850e2af1a02ab13a5991c72952e7c69950a18985413",
-    "Templates/Template_daily.md": "9a9f0cc74c0efcd97afc4c055f1ba2468b49a690777311feee81862511b43af1",
+    "Templates/Template_daily.md": "575d1603d21a99424c4728416fffe384eccfbce7e058c5348ba94a2952049faa",
     "life/20250507.md": "8148ef716f09232893ee0f64edd37b94d3c315397d57875bac0e5fa8c5486531",
     "side/stock-dashboard/NextJS Suspense island pattern.md": "e3be785088c37bf419d755c1990fa8049545193137811d7905e59783bf3c6934",
     "life/20250508.md": "276ec12230599efdc3e9a7d68e9eab26df942b1479efc600448ff547e17cf7e5",
@@ -112,7 +112,7 @@
     "Literature/articles/When should you let AI write your code.md": "2be41c5053d8c215eacca89ec5402a7bb0ac2b20860d26baa21c1e0f2757be5c",
     "Fleetings/Ideas/생각 덤프 앱 만들기.md": "2f6e1890cc4dc5bb0c46f0dea48081d7081db19968990162dc3b104b53747f0c",
     "anomalies/20250521 내 하이퍼포커스.md": "e0ea5ce5f26cc333b5f0fa0f4b5e34d4eeaa35bf471c0da282064eca355be7ff",
-    "Permanants/about/about_20250521 - 코딩 슬럼프.md": "8aa4192d88ccfbef0330de160bdea6c8bc709bd7e6a4d3431cf5c3f11a65bf66",
+    "Permanants/about/about_20250521 - 코딩 슬럼프.md": "23497ed866353cdf1f082974ab4d7edf78bc4e96cd3253d2163eaadd218ddb45",
     "life/adhdic/My Hyperfixation.md": "273427082be171e7a4af178d57209c665e16cd5e369b2f6e5dd6e7bf5441a089",
     "life/20250522, 23.md": "bc3e2003a163cbcb1e2d75b439f4ce01ab5cab3996e52e99179a1413c67efa8b",
     "life/20250524.md": "d65bf612b3d772bb76cee52b3a7717045b1befc83e9bc64298be5994722df93b",
@@ -123,7 +123,14 @@
     "jobs/원티드/thirteen-frontend.md": "617fa6cf8d58c8f778c41e40ae5648a6a1324a2947cfb9c2835daab57b51baff",
     "jobs/원티드/wordvice-frontend.md": "a7f0f49aee8391610864b808fe9e82cebe4a8b4c760e4d77c63a095919d5c829",
     "jobs/사람들의 조언/명승이형.md": "f367226bb7938b687418a86b48aeee1f86acff9518aab5fcb0dc33eafb906bb5",
-    "jobs/job 해야하는거 - 0524 업데이트.md": "c826192ce8df1b8b4e31334b58af93f2bd493bbd218077f4d0eabeb86a84b2ea",
-    "Permanants/ai/언제 AI를 사용해야 할까.md": "f95a46cb610e1aedb8308ee13bd86c2dd1cfada97e6b5762b103003a062a8692"
+    "jobs/job 해야하는거 - 0524 업데이트.md": "3bbe405d69d2a16f2bcd420b734730d63e2e3a17f37975f19ffbbfb25585975d",
+    "Permanants/ai/언제 AI를 사용해야 할까.md": "f95a46cb610e1aedb8308ee13bd86c2dd1cfada97e6b5762b103003a062a8692",
+    "life/20250525.md": "5a6b358e0e258eaf4b6ac4ba06070154deec4256a049ef86f4461a4825014b8a",
+    "life/20250526.md": "c8cd1d6b894da3370216d810fc0fd51451ad7fafc88937d02e84177ad808cf02",
+    "jobs/근무이력/플라잉캣.md": "2dbea427fb41e356d367563bfa7cc6f37397c5461d3327c765754cced92a03e6",
+    "jobs/근무이력/애기야가자.md": "174c3dd8b888ea288b3083e485067664844ddd1c50b48454c92461af123a1991",
+    "jobs/근무이력/아이비에스티.md": "9b5dedac63e71a6ea2cb1beafa9a0cd719c6f1642e506b8e34149e53835080e5",
+    "jobs/근무이력/커넥트아이.md": "8a95884f52b7a49dd5f42c78350c31261de00ee732b0e402866f87f1f48d053b",
+    "life/20250527.md": "dbf540e462b54267687745d5fcbc53d0ec1d43f5e2db623769648772d6243ff2"
   }
 }
