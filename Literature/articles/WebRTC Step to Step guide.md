@@ -11,7 +11,7 @@ modified: 2025-05-28, 10:47
 template_type: Note
 template_version: "1.35"
 license: © 2022-2025 by Edmund Gröpl under CC BY-NC-SA 4.0
-updated: 2025-05-28T11:43
+updated: 2025-05-28T17:36
 ---
 
 <!--  See "Template Help" below for using properties -->
@@ -47,52 +47,71 @@ dv.paragraph(dv.current().visual);
 내장 웹켐이므로 기본 browser api로 웹캠 내용을 잡을 수 있음.
 
 ```javascript
-
-<body>
-
-<h1>Webcam Preview</h1>
-
-<video id="localVideo" autoplay playsinline></video>
-
-  
-
-<script>
-
-const video = document.getElementById('localVideo');
-
-  
-
-async function startWebcam() {
-
-try {
-
-const stream = await navigator.mediaDevices.getUserMedia({
-
-video: true,
-
-});
-
-video.srcObject = stream;
-
-} catch (err) {
-
-console.error('Error accessing webcam:', err);
-
-}
-
-}
-
-  
-
-startWebcam();
-
-</script>
-
-</body>
-
+// 첫 클라이언트 + 엔트리 포인트 맥북의 내장 웹캠
+navigator.mediaDevices.getUserMedia({ video: true, audio: true })
 
 ```
 
+### 2. RTCPeerConnection
+
+- 클라이언트간의 연결을 Peer로 정의함.
+
+```javascript
+const pc = new RTCPeerConnection();
+stream.getTracks().forEach(track => pc.addTrack(track, stream));
+
+```
+
+### 3. Create and send offer from peer A
+
+- sdp 연결의 시작. 먼저 client A에서 오퍼를 생성해서 B로 보냄.
+- 생성된 오퍼는 localDescription으로 저장함.
+- Generate an **SDP offer** and send it to the other peer.
+
+```
+
+const offer = await pc.createOffer(); await pc.setLocalDescription(offer); // send offer.sdp to Peer B
+```
+
+### 4. Receive and answer offer from Peer B
+
+- 받은 오퍼(remote offer)를 통해 SDP answer를 생성함.
+
+```javascript
+
+await pc.setRemoteDescription(offerFromPeerA);
+const answer = await pc.createAnswer();
+await pc.setLocalDescription(answer);
+// send answer.sdp to Peer A
+
+```
+
+
+### 5. Set Remote Answer from Peer A
+
+- B로부터 받은 answer는 remoteDescription으로 저장됨.
+
+```javascript
+
+await pc.setRemoteDescription(answerFromPeerB);
+
+```
+
+### 6. Exchange ICE Candidates from Peer A,B
+
+- SDP 연결이 합의 되었다면, peer간의 연결을 위한 path를 잡는데 이것이 ICE이고 여러 path 중 최선을 찾는 것이므로 candidate라고 한다. 여기서 Stun server, turn 서버가 사용됨.
+
+```javascript
+
+pc.onicecandidate = e => {
+  if (e.candidate) sendToPeer(e.candidate);
+};
+
+
+await pc.addIceCandidate(candidateFromPeer);
+
+
+```
 
 **Supporting Content**
 <!-- Supporting content in tail of my note  -->
@@ -110,8 +129,68 @@ startWebcam();
 - see:: 
 
 **Terms**
-<!-- Links to definition pages. -->
-- 
+- **WebRTC**  
+    Web Real-Time Communication — a browser API that enables peer-to-peer audio, video, and data transfer without plugins.
+    
+- **Peer**  
+    A peer is any device or browser instance participating in a direct connection with another.
+    
+- **P2P (Peer-to-Peer)**  
+    A direct connection between devices without routing media through a central server.
+    
+- **MediaStream**  
+    A stream of audio and/or video tracks captured from devices like a webcam or microphone.
+    
+- **`getUserMedia()`**  
+    API to request access to media devices. Returns a `MediaStream`.
+    
+- **Track**  
+    A single audio or video input within a `MediaStream`.
+    
+- **RTCPeerConnection**  
+    The core object for setting up a WebRTC connection. Manages media transport and ICE negotiation.
+    
+- **SDP (Session Description Protocol)**  
+    A text-based format that describes media capabilities like codecs, resolution, and network details for negotiation. For exchanging multimedia
+    
+- **Offer**  
+    The initiating peer’s proposed connection details (SDP).
+    
+- **Answer**  
+    The responding peer’s accepted connection details (SDP).
+    
+- **`setLocalDescription()`**  
+    Sets your own SDP (offer or answer) in the peer connection.
+    
+- **`setRemoteDescription()`**  
+    Applies the other peer’s SDP to your connection.
+    
+- **ICE (Interactive Connectivity Establishment)**  
+    A process to find the best network path between peers.
+    
+- **ICE Candidate**  
+    A potential network route (IP + port) discovered by the browser for peer connection.
+    
+- **`onicecandidate`**  
+    Event fired when a new ICE candidate is available.
+    
+- **`addIceCandidate()`**  
+    Adds a remote ICE candidate to the local connection.
+    
+- **STUN Server**  
+    A public server that helps a device discover its public IP address.
+    
+- **TURN Server**  
+    A relay server that forwards media/data when a direct connection cannot be established.
+    
+- **`addTrack()`**  
+    Attaches a video/audio track from a `MediaStream` to an `RTCPeerConnection`.
+    
+- **`ontrack`**  
+    Event fired when a media track from the remote peer is received.
+    
+- **RTCDataChannel**  
+    WebRTC feature that allows sending arbitrary text or binary data (e.g., chat, files) directly between peers.
 
 **Target**
 <!-- Link to project note or externaly published content. -->
