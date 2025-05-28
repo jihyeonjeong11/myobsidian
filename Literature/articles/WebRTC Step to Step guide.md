@@ -4,7 +4,7 @@ tags:
   - type/note
   - theme/xyz
 aliases: 
-lead: +++ Lead paragraph goes here +++
+lead: webRTC 프로토콜을 활용한 클라이언트 간 통신 예시 여기서는 맥북 내장 웹캠 -> 시그널링 서버 -> 다른 클라이언트(윈도우컴퓨터의 브라우저)로 연결하는 과정을 다룸.
 visual: "![[image.jpg]]"
 created: 2025-05-28, 10:47
 modified: 2025-05-28, 10:47
@@ -31,13 +31,68 @@ dv.paragraph(dv.current().visual);
 > `= this.lead`
 
 **Details**
-<!-- Main content in body of my note  -->
-1. Session Description Prodocol(SDP) exchange
-2. ICE Candidate Gathering
-3. Exchange if ICE Candidate
-4. ICE Negotiation
-5. Establishment of the Peer Connection
-6. 
+
+옵션 1: 맥북의 웹캠 피드를 다른 기기에서 rct연결로 보이기
+옵션 2: chatGPT에 따르면 브라우저의 두 탭으로 다른 앱을 사용해서 시뮬레이션 가능하다고 함.
+
+|Component|Description|
+|---|---|
+|`getUserMedia()`|Capture webcam|
+|`RTCPeerConnection`|WebRTC peer object|
+|Signaling Server|Exchange offers/answers/candidates|
+|STUN/TURN Server|Deal with NAT/firewalls|
+|Video Element|Render video in browser|
+### 1. getUserMedia()
+
+내장 웹켐이므로 기본 browser api로 웹캠 내용을 잡을 수 있음.
+
+```javascript
+
+<body>
+
+<h1>Webcam Preview</h1>
+
+<video id="localVideo" autoplay playsinline></video>
+
+  
+
+<script>
+
+const video = document.getElementById('localVideo');
+
+  
+
+async function startWebcam() {
+
+try {
+
+const stream = await navigator.mediaDevices.getUserMedia({
+
+video: true,
+
+});
+
+video.srcObject = stream;
+
+} catch (err) {
+
+console.error('Error accessing webcam:', err);
+
+}
+
+}
+
+  
+
+startWebcam();
+
+</script>
+
+</body>
+
+
+```
+
 
 **Supporting Content**
 <!-- Supporting content in tail of my note  -->

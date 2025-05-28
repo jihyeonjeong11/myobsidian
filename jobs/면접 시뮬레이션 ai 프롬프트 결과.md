@@ -26,7 +26,8 @@ updated: 2025-05-28T16:21
 
 - 이거 아님 이건 http streaming임
 [[https://blog.logrocket.com/build-video-streaming-server-node/]]
-
+- 이걸로 하자
+https://ephemeral.cx/2014/09/a-dead-simple-webrtc-example/
 - noejs 서버 remote peer 구현을 위한 비디오 파일 스트리밍
 - 그냥 js 클라이언트 webrtc api를 통한 위 스트리밍 받기
 
