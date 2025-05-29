@@ -13,40 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "jobs/면접 시뮬레이션 ai 프롬프트 결과.md",
+                "file": "life/latest/면접질문_20250529.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "면접 시뮬레이션 ai 프롬프트 결과"
-            }
-          },
-          {
-            "id": "b3aba5c5486060d0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Literature/articles/WebRTC Step to Step guide.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "WebRTC Step to Step guide"
-            }
-          },
-          {
-            "id": "e2ec26db74bf8614",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Literature/articles/WebRTC Step to Step guide.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "WebRTC Step to Step guide"
+              "title": "면접질문_20250529"
             }
           }
         ]
@@ -61,44 +33,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "life/20250527.md",
+                "file": "life/20250529.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "20250527"
+              "title": "20250529"
             }
           },
           {
-            "id": "44bf342ee900318c",
+            "id": "e2ec26db74bf8614",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Literature/articles/WebRTC Step to Step guide.md",
+                "file": "jobs/면접 시뮬레이션 ai 프롬프트 결과.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "WebRTC Step to Step guide"
-            }
-          },
-          {
-            "id": "b1d655543d07a419",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "life/20250528.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "20250528"
+              "title": "면접 시뮬레이션 ai 프롬프트 결과"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -171,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "jobs/면접 시뮬레이션 ai 프롬프트 결과.md",
+                "file": "life/latest/면접질문_20250529.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -181,7 +139,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 면접 시뮬레이션 ai 프롬프트 결과"
+              "title": "Backlinks for 면접질문_20250529"
             }
           },
           {
@@ -251,22 +209,28 @@
   },
   "active": "5918ad7ccd9cc413",
   "lastOpenFiles": [
-    "life/20250528.md",
     "jobs/면접 시뮬레이션 ai 프롬프트 결과.md",
-    "Literature/articles/WebRTC Step to Step guide.md",
+    "life/latest/면접질문_20250529.md",
+    "life/20250529.md",
     "life/20250527.md",
+    "Literature/articles/WebRTC Step to Step guide.md",
+    "life/latest/Fianancial_20250529.md",
     "jobs/근무이력 면접 질문 리스트.md",
+    "jobs/job 해야하는거 - 0524 업데이트.md",
+    "jobs/근무이력/최신화 자소서 20250527.md",
+    "life/20250528.md",
+    "life/latest",
+    "Templates/Template_unfinised.md",
+    "Fleetings/Ideas/wild ideas.md",
     "jobs/근무이력/커넥트아이.md",
     "jobs/근무이력/아이비에스티.md",
     "jobs/근무이력/플라잉캣.md",
     "life/20250526.md",
     "jobs/근무이력/근무이력 전체 텍스트 프롬프트용.md",
     "jobs/근무이력/애기야가자.md",
-    "jobs/근무이력/최신화 자소서 20250527.md",
     "conflict-files-obsidian-git.md",
     "life/20250525.md",
     "jobs/근무이력",
-    "jobs/job 해야하는거 - 0524 업데이트.md",
     "jobs/사람들의 조언/명승이형.md",
     "life/20250524.md",
     "Templates/Template_daily.md",
@@ -276,12 +240,7 @@
     "visuals/slump.jpg",
     "jobs/사람들의 조언",
     "jobs",
-    "life/adhdic/My Hyperfixation.md",
-    "Fleetings/Job descs/인터뷰 마인드셋.md",
-    "life/20250522, 23.md",
     "life/adhdic",
-    "life/20250521.md",
-    "life/20250430.md",
     "anomalies",
     "Permanants/about",
     "visuals/cody.png",
@@ -291,7 +250,6 @@
     "visuals/websocket.avif",
     "Permanants/Job-Interviews",
     "diagrams/StockDashboardDiagram.excalidraw",
-    "Literature/How-to-Take-Smart-Notes-by-Sönke-Ahrens-40zol.pdf",
     "visuals/chart5.png",
     "visuals/chart4.png",
     "visuals/chart3.png",

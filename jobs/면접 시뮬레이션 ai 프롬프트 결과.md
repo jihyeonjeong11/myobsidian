@@ -1,6 +1,6 @@
 ---
 created: 2025-05-27T20:37
-updated: 2025-05-28T18:24
+updated: 2025-05-29T14:45
 ---
 
 [[근무이력 면접 질문 리스트]]
@@ -35,8 +35,6 @@ https://ephemeral.cx/2014/09/a-dead-simple-webrtc-example/
 
 status부터 확인하기
 
-- WebRTC를 프로젝트에 도입한 이유는? 
-     시키니까
 - Signaling, ICE candidate, SDP 교환 흐름을 설명해줄 수 있나요?
 - 
      - client A -> 웹캠과 연결, 어드민 클라에 cctv 피드 전송
@@ -54,7 +52,7 @@ status부터 확인하기
        - 
      
 - 영상 녹화 클라이언트를 만들 때 어떤 문제를 겪었고 어떻게 해결했나요?
-     
+     리커넥션 로직입니다. [stackoverflow](https://stackoverflow.com/questions/32047777/how-can-webrtc-reconnect-to-the-same-peer-after-disconnection)의 답변에 따라 status가 disconnected 될 때 restartIce로 해결했지만, 이것은 로컬 서버환경에서만 테스트 한 것이므로, 다른 환경에서는 어떨지 더 나은 방법이 있는지 의문점이 있습니다.
 
 #### 📌 대규모 차트 (Echarts + Skia)
 
