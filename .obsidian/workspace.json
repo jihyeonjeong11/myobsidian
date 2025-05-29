@@ -22,6 +22,20 @@
             }
           },
           {
+            "id": "b3aba5c5486060d0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Literature/articles/WebRTC Step to Step guide.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "WebRTC Step to Step guide"
+            }
+          },
+          {
             "id": "e2ec26db74bf8614",
             "type": "leaf",
             "state": {
@@ -84,7 +98,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -237,10 +251,10 @@
   },
   "active": "5918ad7ccd9cc413",
   "lastOpenFiles": [
-    "Literature/articles/WebRTC Step to Step guide.md",
-    "life/20250527.md",
     "life/20250528.md",
     "jobs/면접 시뮬레이션 ai 프롬프트 결과.md",
+    "Literature/articles/WebRTC Step to Step guide.md",
+    "life/20250527.md",
     "jobs/근무이력 면접 질문 리스트.md",
     "jobs/근무이력/커넥트아이.md",
     "jobs/근무이력/아이비에스티.md",

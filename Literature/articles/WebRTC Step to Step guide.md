@@ -11,7 +11,7 @@ modified: 2025-05-28, 10:47
 template_type: Note
 template_version: "1.35"
 license: © 2022-2025 by Edmund Gröpl under CC BY-NC-SA 4.0
-updated: 2025-05-28T17:36
+updated: 2025-05-28T17:55
 ---
 
 <!--  See "Template Help" below for using properties -->
@@ -123,6 +123,7 @@ await pc.addIceCandidate(candidateFromPeer);
 **Source**
 <!-- Always keep a link to the source- --> 
 - based_on::[medium post](https://medium.com/@pranjal.3vyas/step-by-step-guide-to-building-a-webrtc-application-bda84fd566b3)
+- [웹소켓 webrtc 예제](https://github.com/nnmer/webrtc-ws-example)
 
 **References**
 <!-- Links to pages not referenced in the content. see: [[related note]] because <reason> -->
