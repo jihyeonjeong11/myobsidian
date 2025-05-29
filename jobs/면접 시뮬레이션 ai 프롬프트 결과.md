@@ -33,6 +33,8 @@ https://ephemeral.cx/2014/09/a-dead-simple-webrtc-example/
 
 [[WebRTC Step to Step guide]]
 
+status부터 확인하기
+
 - WebRTC를 프로젝트에 도입한 이유는? 
      시키니까
 - Signaling, ICE candidate, SDP 교환 흐름을 설명해줄 수 있나요?
@@ -62,6 +64,19 @@ https://ephemeral.cx/2014/09/a-dead-simple-webrtc-example/
      여러 라이브러리를 테스트 했을 때 Echarts는 벡터 드로잉에 있어서 기존 메소드가 아니라 SKIA를 사용하기 때문에 가장 많은 데이터를 처리하는데 도움이 된다고 확인했습니다. 플러터도 SKIA를 기본으로 사용해서 좋다고 해서, 실제로 위 샘플 데이터로 사용해 보았을 때 퍼포먼스 상 지표가 가장 좋았습니다.
 - React Native 환경에서 그래픽 최적화에 사용한 주요 기법은?
      내가 알기로는 Flatlist와 함께, removedSubClippedView를 사용하는 것. 
+     
+[interaction manager](https://apratimjaiswal.hashnode.dev/react-native-app-performance-improvement-using-interactionmanager)
+의 사용예를 보면, 태스크의 순서를 딱 조정하는 것, 그리고 페이지를 벗어날 때 예정된 async 태스크를 꺼버릴 수 있기 때문에 퍼포먼스에 도움이 된다.
+
+- 내부 옵션 리스트
+
+|옵션|효과|상황 추천|
+|---|---|---|
+|`renderMode: 'canvas'`|SVG보다 렌더링 빠름|대량 데이터|
+|`large: true`|상호작용 포기하고 성능 확보|수만 개 이상|
+|`progressive`|렌더링 분할로 프레임 드랍 방지|느린 기기 대응|
+|`progressiveThreshold`|언제 progressive 시작할지 기준 설정|성능 튜닝용|
+|`progressiveChunkMode`|렌더링 순서 조정|시계열에 `sequential`|
 
 #### 📌 풀스택 / 데이터 파이프라인🛑
 
