@@ -43,15 +43,16 @@ https://ephemeral.cx/2014/09/a-dead-simple-webrtc-example/
        
        연결 프로세스
        - A, B는 모두 웹소켓으로 서버에 연결
-     -  A에서 getUserMedia, RTCPeerConnection 연결로 연결 시작
-       - A에서 SDP offer 시작
-       - B에서 offer 확인, answer 전송
+     -  A에서 getUserMedia,
+     -  A와 B는 RTCPeerConnection 연결로 연결 시작
+       - Peer 정보를 통해 A에서 SDP offer 시작
+       - B에서 offer 확인, peer기반의 answer 전송
        - offer와 answer가 저장되었다면 퍼블릭 stun 서버를 통해 ice 연결
        - 성공했다면 웹소켓 close
        - 
      
 - 영상 녹화 클라이언트를 만들 때 어떤 문제를 겪었고 어떻게 해결했나요?
-     크게 문제는 없었던 것 같다. 가장 큰 문제는 역시 이해에 시간이 많이 걸렸다. 
+     
 
 #### 📌 대규모 차트 (Echarts + Skia)
 
