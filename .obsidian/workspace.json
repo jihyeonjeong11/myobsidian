@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "life/latest/면접질문_20250529.md",
+                "file": "life/20250530.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "면접질문_20250529"
+              "title": "20250530"
             }
           }
         ]
@@ -55,8 +55,7 @@
               "title": "면접 시뮬레이션 ai 프롬프트 결과"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -129,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "life/latest/면접질문_20250529.md",
+                "file": "life/20250530.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +138,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 면접질문_20250529"
+              "title": "Backlinks for 20250530"
             }
           },
           {
@@ -209,9 +208,10 @@
   },
   "active": "5918ad7ccd9cc413",
   "lastOpenFiles": [
-    "jobs/면접 시뮬레이션 ai 프롬프트 결과.md",
-    "life/latest/면접질문_20250529.md",
     "life/20250529.md",
+    "life/20250530.md",
+    "life/latest/면접질문_20250530.md",
+    "jobs/면접 시뮬레이션 ai 프롬프트 결과.md",
     "life/20250527.md",
     "Literature/articles/WebRTC Step to Step guide.md",
     "life/latest/Fianancial_20250529.md",
@@ -236,7 +236,6 @@
     "Templates/Template_daily.md",
     "Permanants/about/about_20250521 - 코딩 슬럼프.md",
     "Permanants/ai/언제 AI를 사용해야 할까.md",
-    "Literature/articles/When should you let AI write your code.md",
     "visuals/slump.jpg",
     "jobs/사람들의 조언",
     "jobs",
