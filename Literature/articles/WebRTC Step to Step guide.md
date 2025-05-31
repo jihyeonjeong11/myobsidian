@@ -5,13 +5,13 @@ tags:
   - theme/xyz
 aliases: 
 lead: webRTC 프로토콜을 활용한 클라이언트 간 통신 예시 여기서는 맥북 내장 웹캠 -> 시그널링 서버 -> 다른 클라이언트(윈도우컴퓨터의 브라우저)로 연결하는 과정을 다룸.
-visual: "![[image.jpg]]"
+visual: "![[webrtc.png]]"
 created: 2025-05-28, 10:47
 modified: 2025-05-28, 10:47
 template_type: Note
 template_version: "1.35"
 license: © 2022-2025 by Edmund Gröpl under CC BY-NC-SA 4.0
-updated: 2025-05-28T17:55
+updated: 2025-05-30T13:12
 ---
 
 <!--  See "Template Help" below for using properties -->
