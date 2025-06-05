@@ -70,7 +70,11 @@
     "Permanants/ai/언제 AI를 사용해야 할까.md": "f95a46cb610e1aedb8308ee13bd86c2dd1cfada97e6b5762b103003a062a8692",
     "Literature/articles/WebRTC Step to Step guide.md": "5a22aa545c5689e6423d2b22c25d89136253b760c17579e9391d9619e8536d41",
     "Literature/articles/PWA vs Electron.md": "9c6d3026d1eba6891c9a7a44f23e5feeb6907695c2e546d793feb840fab788e1",
-    "Permanants/study/FarmGameJS.md": "29f6c70d48d0633d34207fb82abe0f47ab9803c18f176ca858e1cdf9b9ee0070",
-    "Templates/Template_unfinised.md": "b850cafb3712efc5241eeeaced5c3e9ac710a89d9ff7f0ae4a0ffe0447449f9a"
+    "Templates/Template_unfinised.md": "b850cafb3712efc5241eeeaced5c3e9ac710a89d9ff7f0ae4a0ffe0447449f9a",
+    "Permanants/study/FarmGameJS/ExecutionOrder.md": "f9745774a115a39acdb5b1e98f1f570bd070f3ee19b7cd9ba13fbe36a0295626",
+    "Permanants/study/FarmGameJS/models.md": "917a852a15e3c932cb00e45498b73f4dc57b3c8962f310983cfd9bb0e7080718",
+    "Permanants/study/FarmGameJS/views.md": "35d40e060dc4fcd0aff5f2f16c195d8fb932d21f3b35c26eeac8e2ba98164827",
+    "Permanants/study/FarmGameJS/core logics.md": "dafb48b298dc06a5e09f7827d727942587d84d4c022f27d2ac87bc29cf6ae0b8",
+    "Fleetings/Ideas/WASM-PWA.md": "cb94d4d9185ca27637d8219723d8ae4c14100da3f3945d4e56839e497ce93a31"
   }
 }

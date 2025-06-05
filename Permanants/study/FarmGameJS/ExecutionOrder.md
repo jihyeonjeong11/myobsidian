@@ -11,7 +11,7 @@ modified: 2025-06-01, 21:17
 template_type: Note
 template_version: "1.35"
 license: © 2022-2025 by Edmund Gröpl under CC BY-NC-SA 4.0
-updated: 2025-06-02T00:11
+updated: 2025-06-02T13:44
 ---
 <!--  See "Template Help" below for using properties -->
 
@@ -49,7 +49,7 @@ ROOT
 
 - Model: element 폴더
 - View: view 폴더 내부.
-- Controller: game_manager 폴더의 listener, 및 game 폴더 내부
+- Controller: game_manager 폴더의 listener, 및 game 폴더 내부, element actions
 - Static assets: game_manager 안의 값들.
 
 ### 2. 모델
@@ -250,6 +250,8 @@ constructor{
     
 ```
 
+게임 시작
+
 **Supporting Content**
 <!-- Supporting content in tail of my note  -->
 - 
@@ -261,6 +263,11 @@ constructor{
 <!-- Always keep a link to the source- --> 
 - based_on::
 - [GamerFarmerJS](https://github.com/AliHaine/GameFarmerJS)
+- [[models]]
+- [[views]]
+- [[controllers]]
+- [[core logics]]
+
 
 **References**
 <!-- Links to pages not referenced in the content. see: [[related note]] because <reason> -->
