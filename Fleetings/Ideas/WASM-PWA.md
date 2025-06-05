@@ -1,6 +1,6 @@
 ---
 created: 2025-06-05T15:32
-updated: 2025-06-05T15:37
+updated: 2025-06-05T15:39
 ---
 
 
@@ -11,6 +11,9 @@ updated: 2025-06-05T15:37
 - 모바일에서 앱처럼 사용가능함
 - 깃헙 페이지에서 바로 다운로드 가능할듯
 - https://christianheilmann.com/2022/01/13/turning-a-github-page-into-a-progressive-web-app/
+
+**PWA + github page 예제**
+- https://github.com/codepo8/github-page-pwa
 
 
 **WASM**
