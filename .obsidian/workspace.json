@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "9ada37672c89dcc8",
+        "id": "f8113b0949f268e3",
         "type": "tabs",
         "children": [
           {
-            "id": "d917e2b35d0d5a4c",
+            "id": "86cb8e70fb7b661a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fleetings/Ideas/WASM-PWA.md",
+                "file": "Fleetings/Ideas/PWA의 장점 - 드래프트 PWA,.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "WASM-PWA"
+              "title": "PWA의 장점 - 드래프트 PWA,"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleetings/Ideas/WASM-PWA.md",
+                "file": "Fleetings/Ideas/PWA의 장점 - 드래프트 PWA,.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for WASM-PWA"
+              "title": "Backlinks for PWA의 장점 - 드래프트 PWA,"
             }
           },
           {
@@ -172,11 +172,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d917e2b35d0d5a4c",
+  "active": "86cb8e70fb7b661a",
   "lastOpenFiles": [
-    "Fleetings/Ideas/Websocket Protocol.md",
+    "visuals/what-is-pwa-img.png",
+    "Fleetings/Ideas/PWA의 장점 - 드래프트 PWA,.md",
+    "visuals/pwa-update2.png",
     "Fleetings/Ideas/WASM-PWA.md",
-    "Fleetings/Ideas/PWA.md",
+    "visuals/pwa-update.png",
+    "visuals/Progressive-Web-Apps-Architecture.png",
+    "Fleetings/Ideas/Untitled.md",
+    "Fleetings/Ideas/Websocket Protocol.md",
     "Fleetings/Ideas/Copy article order - What is smart note and how it helped me my life.md",
     "Fleetings/Ideas/개인적인 경험을 담은 테크 아티클 쇼케이스.md",
     "Fleetings/Ideas/솔로 앱 아이디어들.md",
@@ -200,8 +205,6 @@
     "Permanants/study/tetris",
     "Permanants/study/FarmGameJS/controllers.md",
     "Permanants/study/FarmGameJS/models.md",
-    "Permanants/study/FarmGameJS/views.md",
-    "Permanants/study/FarmGameJS/ExecutionOrder.md",
     "Permanants/study/FarmGameJS",
     "Permanants/about",
     "Permanants/Codebase/about",
@@ -217,10 +220,6 @@
     "visuals/slump.jpg",
     "jobs/사람들의 조언",
     "jobs",
-    "visuals/cody.png",
-    "Untitled.canvas",
-    "visuals/websocket.jpg",
-    "visuals/websocket.avif",
-    "visuals/chart5.png"
+    "Untitled.canvas"
   ]
 }
